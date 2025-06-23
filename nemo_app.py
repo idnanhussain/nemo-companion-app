@@ -7,7 +7,7 @@ import streamlit as st
 import openai
 import os
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("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")
 
 print("API Key Loaded:", openai.api_key)  # Add this for debugging
 
